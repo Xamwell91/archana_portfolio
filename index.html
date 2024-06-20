@@ -12,7 +12,13 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Picstudio</title>
+  
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- For older browsers and more compatibility -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <title>Archana Limbu</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -26,8 +32,31 @@
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
 
+<!-- <style>
+
+#content {
+            height: 2000px; /* Make the content long enough to scroll */
+            background-color: #f0f0f0;
+        }
+
+        /* Style the anchor link for better visibility */
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+    /* Apply smooth scrolling behavior */
+    html {
+            scroll-behavior: smooth;
+        }
+</style> -->
+
 <body>
-  <div class="hero_area">
+  <div class="hero_area", id="hero_area">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
@@ -43,17 +72,16 @@
               </div>
               <div id="myNav" class="overlay">
                 <div class="overlay-content">
-                  <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  <a class="" href="about.html">About </a>
-                  <a class="" href="gallery.html">Gallery </a>
-                  <a class="" href="blog.html">Blog </a>
-                  <a class="" href="testimonial.html">Testimonial </a>
+                  <a class="" href="#hero_area">Home <span class="sr-only">(current)</span></a>
+                  <a class="" href="#about_me">About </a>
+                  <a class="" href="#services">Services </a>
+                  <a class="" href="#gallery">Gallery </a>
                 </div>
               </div>
             </div>
             <a class="navbar-brand" href="index.html">
               <span>
-                Archana Limbu
+                Archana Limbu Magar
               </span>
             </a>
             <!-- <div class="user_option">
@@ -80,13 +108,13 @@
                 <div class="carousel-item active">
                   <div class="detail-box">
                     <h2>
-                      Hi, I'm Archana Limbu
+                      From Chasme : 
                     </h2>
                     <p>
-                      I am a beautician.
+                      Hi babe, I just wanna say you that I miss you. Every time I think about you, my heart becomes full of love. I had never loved anyone like you and I can't imagine my life without you. I want to spend the rest of my life with you. Will you marry me?
                     </p>
                     <div>
-                      <a href="#">
+                      <a href="#about_me">
                         Know more
                       </a>
                     </div>
@@ -124,8 +152,8 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
-    <div class="container">
+  <section class="about_section layout_padding" id="about_me">
+    <div class="container",>
       <div class="row">
         <div class="col-md-5">
           <div class="detail-box">
@@ -138,25 +166,160 @@
                  I offer skincare, makeup, waxing, manicures, pedicures, haircuts, and coloring.
                  I ensure every client feels pampered and continually improve my skills for top-quality service.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="img-box">
-      <div class="play_btn">
-        <a href="#">
-          <img src="images/play.png" alt="" />
-        </a>
-      </div>
+    
       <img src="images/about-img.png" class="about-img" alt="" />
     </div>
   </section>
 
   <!-- end about section -->
+
+    <!-- service section -->
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Services we provide
+              </h2>
+              <p>
+                We offer customized haircuts, professional makeup, nail care, skincare treatments, 
+                and waxing. We also provide specialized bridal and special occasion packages. 
+                Each service ensures exceptional results with high-quality products.
+              </p>
+              <a href="#services">
+                See More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog_container">
+      <div class="blog_bg">
+        <!-- <img src="images/gallery-bg.png" alt="" /> -->
+      </div>
+      <div class="container">
+        <div class="blog_box">
+          <div class="row">
+            <div class="col-md-6"id="services">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/services/bride2.png" alt="" />
+                </div>
+                <div class="blog-detail" >
+                  <div class="blog_title">
+                    <h5>
+                      Bridal Makeup
+                    </h5>
+                    <div class="blog_post">
+                      <!-- <h6>
+                        Archana Limbu
+                      </h6> -->
+                      <!-- <h6>
+                        16-01-2020
+                      </h6> -->
+                    </div>
+                  </div>
+                  <p>
+                    We specialize in creating stunning bridal makeup for your special day. We start with a personalized consultation to understand your vision and style. Using high-quality products, we ensure a flawless application that enhances your natural beauty. Our goal is to make you feel confident and radiant, tailoring each look to make your wedding day truly unforgettable.  
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/services/hair_style.jpeg" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Hair Styling and Cutting
+                    </h5>
+                    <div class="blog_post">
+                      <!-- <h6>
+                        Post By: Pic studio
+                      </h6>
+                      <h6>
+                        16-01-2020
+                      </h6> -->
+                    </div>
+                  </div>
+                  <p>
+                    Our experienced stylists provide personalized consultations to understand your individual preferences and lifestyle, ensuring each haircut and styling reflects your unique personality. Whether you're looking for a bold new look, subtle trim, or vibrant color change, we use advanced techniques and high-quality products to achieve stunning results that complement your features and enhance your natural beauty.  
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/services/nail_care.jpg" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Nail Care
+                    </h5>
+                    <div class="blog_post">
+                      <!-- <h6>
+                        Archana Limbu
+                      </h6> -->
+                      <!-- <h6>
+                        16-01-2020
+                      </h6> -->
+                    </div>
+                  </div>
+                  <p>
+                    Indulge in a pampering experience with our range of nail care services designed to keep your hands and feet looking and feeling their best. Our skilled technicians offer meticulous manicures, rejuvenating pedicures, intricate nail art designs, and long-lasting extensions to suit your individual style preferences. Using high-quality products and precise techniques, we create stunning nail looks that add a touch of elegance to your overall appearance.  
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/services/skin_care.jpg" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Skincare Treatments:
+                    </h5>
+                    <div class="blog_post">
+                      <!-- <h6>
+                        Post By: Pic studio
+                      </h6>
+                      <h6>
+                        16-01-2020
+                      </h6> -->
+                    </div>
+                  </div>
+                  <p>
+                    Experience the ultimate relaxation and rejuvenation with our luxurious skincare treatments tailored to address your specific skin concerns. From hydrating facials to revitalizing exfoliation, our skilled estheticians utilize advanced techniques and premium skincare products to cleanse, nourish, and renew your skin. Whether you're targeting acne, aging, or dryness, our comprehensive treatments leave your skin glowing, refreshed, and radiant. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
 
   <!-- gallery section -->
   <section class="gallery_section layout_padding-top">
@@ -165,12 +328,12 @@
         <div class="col-lg-5 ml-auto">
           <div class="heading_container">
             <h2>
-              Our Gallery
+              Gallery
             </h2>
             <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page
+              Welcome to Archana Limbu's Gallery. Discover the art and elegance in every service we offer.
             </p>
-            <a href="">
+            <a href="#gallery">
               See More
             </a>
           </div>
@@ -179,51 +342,51 @@
     </div>
     <div class="gallery_container">
       <div class="gallery_bg">
-        <img src="images/gallery-bg.png" alt="" />
+        <!-- <img src="images/gallery-bg.png" alt="" /> -->
       </div>
-      <div class="container">
+      <div class="container"id="gallery">
         <div class="gallery_box">
           <div class="box b1">
             <div class="img-box">
-              <img src="images/gallery-1.jpg" alt="" />
-              <h5>
-                photography
+              <img src="images/gallery/bride.jpg" alt="" />
+              <h5 >
+                Birdal Makeup
               </h5>
             </div>
           </div>
           <div class="box b2">
             <div class="img-box">
-              <img src="images/gallery-2.jpg" alt="" />
+              <img src="images/gallery/hair_treatments.jpg" alt="" />
               <h5>
-                photography
+                Hair Treatments
               </h5>
             </div>
             <div class="img-box">
-              <img src="images/gallery-3.jpg" alt="" />
+              <img src="images/gallery/manicure.jpg" alt="" />
               <h5>
-                photography
+                Manicure
               </h5>
             </div>
           </div>
           <div class="box b3">
             <div class="img-box">
-              <img src="images/gallery-4.jpg" alt="" />
+              <img src="images/gallery/waxing.jpg" alt="" />
               <h5>
-                photography
+                Waxing
               </h5>
             </div>
             <div class="img-box">
-              <img src="images/gallery-5.jpg" alt="" />
+              <img src="images/gallery/pedicure.jpg" alt="" />
               <h5>
-                photography
+                Pedicure
               </h5>
             </div>
           </div>
           <div class="box b4">
             <div class="img-box">
-              <img src="images/gallery-6.jpg" alt="" />
+              <img src="images/gallery/facial.jpg" alt="" />
               <h5>
-                photography
+                Facial
               </h5>
             </div>
           </div>
@@ -233,96 +396,9 @@
   </section>
   <!-- end gallery section -->
 
-  <!-- blog section -->
-
-  <section class="blog_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                Letest Blog
-              </h2>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page
-              </p>
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="blog_container">
-      <div class="blog_bg">
-        <img src="images/gallery-bg.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="blog_box">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="box b1">
-                <div class="img-box">
-                  <img src="images/blog1.jpg" alt="" />
-                </div>
-                <div class="blog-detail">
-                  <div class="blog_title">
-                    <h5>
-                      Best photography
-                    </h5>
-                    <div class="blog_post">
-                      <h6>
-                        Post By: Pic studio
-                      </h6>
-                      <h6>
-                        16-01-2020
-                      </h6>
-                    </div>
-                  </div>
-                  <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="box b2">
-                <div class="img-box">
-                  <img src="images/blog2.jpg" alt="" />
-                </div>
-                <div class="blog-detail">
-                  <div class="blog_title">
-                    <h5>
-                      Photography
-                    </h5>
-                    <div class="blog_post">
-                      <h6>
-                        Post By: Pic studio
-                      </h6>
-                      <h6>
-                        16-01-2020
-                      </h6>
-                    </div>
-                  </div>
-                  <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end blog section -->
-
   <!-- client section -->
 
-  <section class="client_section layout_padding">
+  <!-- <section class="client_section layout_padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 ml-auto">
@@ -417,7 +493,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- end client section -->
 
@@ -428,24 +504,24 @@
       <div class="container">
         <div class="heading_container">
           <h2>
-            Contact Us
+            Contact me
           </h2>
         </div>
         <div class="info_main">
           <div class="row">
             <div class="col-md-4 col-lg-3">
               <div class="info_contact ">
-                <a href="#" class="link-box">
+                <a class="link-box">
                   <div class="img-box">
                     <img src="images/location.png" alt="" />
                   </div>
                   <div class="detail-box">
                     <h6>
-                      Location
+                      Pathari, Morang, Nepal
                     </h6>
                   </div>
                 </a>
-                <a href="#" class="link-box">
+                <!-- <a  class="link-box">
                   <div class="img-box">
                     <img src="images/mail.png" alt="" />
                   </div>
@@ -454,8 +530,8 @@
                       demo@gmail.com
                     </h6>
                   </div>
-                </a>
-                <a href="#" class="link-box">
+                </a> -->
+                <!-- <a href="#" class="link-box">
                   <div class="img-box">
                     <img src="images/call.png" alt="" />
                   </div>
@@ -464,47 +540,42 @@
                       Call +01 1234567890
                     </h6>
                   </div>
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="col-md-2 col-lg-3">
               <div class="info_link-box">
                 <ul>
                   <li class=" ">
-                    <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="" href="#hero_area">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="">
-                    <a class="" href="about.html">About </a>
+                    <a class="" href="#about_me">About </a>
                   </li>
                   <li class="">
-                    <a class="" href="gallery.html">Gallery </a>
+                    <a class="" href="#services">Service </a>
                   </li>
                   <li class="">
-                    <a class="" href="blog.html">Blog </a>
+                    <a class="" href="#gallery">Gallery </a>
                   </li>
-                  <li class="">
+                
+                  <!-- <li class="">
                     <a class="" href="testimonial.html">Testimonial </a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
             <div class="col-md-6 ">
               <div class="social_box">
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100073296278307"target="_blank">
                   <img src="images/facebook.png" alt="" />
                 </a>
-                <a href="#">
-                  <img src="images/twitter.png" alt="" />
-                </a>
-                <a href="#">
-                  <img src="images/linkedin.png" alt="" />
-                </a>
-                <a href="#">
+             
+              
+                <a href="https://www.instagram.com/archana.limbu.5"target="_blank">
                   <img src="images/instagram.png" alt="" />
                 </a>
-                <a href="#">
-                  <img src="images/youtube.png" alt="" />
-                </a>
+              
               </div>
             </div>
           </div>
@@ -516,14 +587,14 @@
   <!-- end info section -->
 
   <!-- footer section -->
-  <footer class="footer_section ">
+  <!-- <footer class="footer_section ">
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved. Design by
         <a href="https://html.design/">Free Html Templates</a>
       </p>
     </div>
-  </footer>
+  </footer> -->
   <!-- footer section -->
 
   <script src="js/jquery-3.4.1.min.js"></script>
